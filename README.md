@@ -1,5 +1,3 @@
-# expcetion-tracking-with-sentry
-
 # 概述
 > Open-source error tracking that helps developers monitor and fix crashes in real time. Iterate continuously. Boost efficiency. Improve user experience.
 
@@ -14,12 +12,12 @@ sentry是一个现代化的错误日志记录和聚合平台。支持几乎所�
 # 2.创建Team，Project
 用创建好的账号登录，创建Team和Project.
 
-![image](/assets/blogImg/expcetion-tracking-with-sentry/project_setting.jpg)
+![image](https://jasonli822.github.io/assets/blogImg/expcetion-tracking-with-sentry/project_setting.jpg)
 
 
 设置下语言和时区
 
-![image](/assets/blogImg/expcetion-tracking-with-sentry/account_setting.jpg)
+![image](https://jasonli822.github.io/assets/blogImg/expcetion-tracking-with-sentry/account_setting.jpg)
 
 
 
@@ -62,7 +60,7 @@ sentry是一个现代化的错误日志记录和聚合平台。支持几乎所�
 ```
 dsn这里配置项目的dsn地址，如下图所示：
 
-![image](/assets/blogImg/expcetion-tracking-with-sentry/dsn.jpg)
+![image](https://jasonli822.github.io/assets/blogImg/expcetion-tracking-with-sentry/dsn.jpg)
 
 3). 测试类
 ```java
@@ -90,16 +88,16 @@ public class SentryApplication {
 ```
 运行测试类，可以看到日志已经记录到sentry上去了。
 
-![image](/assets/blogImg/expcetion-tracking-with-sentry/Unresolved_Issues.jpg)
+![image](https://jasonli822.github.io/assets/blogImg/expcetion-tracking-with-sentry/Unresolved_Issues.jpg)
 
 
 点击问题可以查看问题详细：
 
-![image](/assets/blogImg/expcetion-tracking-with-sentry/issue_detail.jpg)
+![image](https://jasonli822.github.io/assets/blogImg/expcetion-tracking-with-sentry/issue_detail.jpg)
 
 点击[分享该事件]可以将分享该事件：
 
-![image](/assets/blogImg/expcetion-tracking-with-sentry/share_issue.jpg)
+![image](https://jasonli822.github.io/assets/blogImg/expcetion-tracking-with-sentry/share_issue.jpg)
 
 
 以上便是利用sentry记录分析错误日志基本功能。
